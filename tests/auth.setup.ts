@@ -9,7 +9,7 @@ setup('authentification', async ({page, request}) => {
 const response = await request.post('https://conduit-api.bondaracademy.com/api/users/login', {
         data: {
             "user": {
-                "email": "test@gmail.com",
+                "email": "testApiplaywright",
                 "password": "test"
             }
         }
