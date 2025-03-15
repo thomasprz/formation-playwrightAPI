@@ -10,8 +10,8 @@ test('End to End Processus : Login > Create Article > Delete', async ({ page, re
     const response = await request.post('https://conduit-api.bondaracademy.com/api/users/login', {
         data: {
             "user": {
-                "email": "tom.pcheg@gmail.com",
-                "password": "Lille-59000"
+                "email": "test@gmail.com",
+                "password": "test"
             }
         }
     })
